@@ -1,8 +1,14 @@
 body{
-  font-family: "Noto Serif", serif;
+  font-family: "Merriweather", serif;
   max-width: 70%;
   margin: 50px auto;
 }
+/*color scheme
+yellow: #CCB24E
+brown:#998B53
+pink:#FCE5C2
+bright blue: #A4EEFD
+blue: #87C9C2*/
 h1 {
     color: #33485e;
     text-transform: uppercase;
@@ -11,7 +17,7 @@ h1 {
     margin-bottom: 10px;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 h3, h4, h5{
@@ -21,7 +27,9 @@ h2{
   background-color: #33485e;
   color: white;
   padding: 2px 5px
-
+}
+h3 {
+  font-weight: bold;
 }
 #header {
   text-align: center;
@@ -71,6 +79,6 @@ img {
   height: 300px
   width: 50%
 }
-.seperate{
+#seperate{
     border-bottom: 1px solid #999;
 }
